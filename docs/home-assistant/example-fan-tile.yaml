@@ -1,7 +1,7 @@
 type: tile
 features:
   - type: fan-speed
-entity: fan.zehnder_comfoair_q350_fan
+entity: fan.comfoair_fan
 vertical: false
 show_entity_picture: false
 icon_tap_action:
@@ -9,4 +9,4 @@ icon_tap_action:
   service: switch.turn_on
   target:
     entity_id:
-      - switch.zehnder_comfoair_q350_auto_ventilation
+      - switch.comfoair_auto_ventilation
