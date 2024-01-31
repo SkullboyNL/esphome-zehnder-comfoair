@@ -65,8 +65,8 @@ zehnder_comfoair_q:
 
 canbus:
   - platform: esp32_can
-    tx_pin: GPIO05
-    rx_pin: GPIO17
+    tx_pin: GPIO17
+    rx_pin: GPIO05
     bit_rate: 50kbps
     can_id: 0 # mandatory but we do not use it
     on_frame:
