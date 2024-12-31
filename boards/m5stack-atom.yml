@@ -1,7 +1,0 @@
-# M5Stack ATOM Lite
-substitutions:
-  can_tx_pin: GPIO26
-  can_rx_pin: GPIO32
-  board: m5stack-atom
-  variant: esp32
-  flash_size: 4MB

@@ -1,7 +1,0 @@
-# Olimex ESP32-EVB
-substitutions:
-  can_tx_pin: GPIO5
-  can_rx_pin: GPIO35
-  board: esp32-evb
-  variant: esp32
-  flash_size: 8MB
