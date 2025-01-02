@@ -27,6 +27,7 @@ packages:
 
 dashboard_import:
   package_import_url: github://SkullboyNL/esphome-zehnder-comfoair/zehnder-comfoair-q-wifi-v1.yml
+  import_full_config: false # or true
 
   
 external_components:
