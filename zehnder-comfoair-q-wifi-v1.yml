@@ -1,7 +1,7 @@
 substitutions:
   friendly_name: Zehnder ComfoAir Q
   device_name: zehnder-comfoair-q
-  device_description: Zehnder ComfoAir Q HRV (heat recovery ventilation) unit
+  device_description: Zehnder ComfoAir Q Heat Recovery Ventilation Unit
   filter_time: 5s
   filter_send_every: "1"
   filter_window_size: "3"
@@ -42,7 +42,7 @@ esphome:
   friendly_name: ${friendly_name}
   comment: ${device_description}
   project:
-    name: yoziru.esphome-zehnder-comfoair
+    name: SkullboyNL.esphome-zehnder-comfoair 
     version: "2024.8.0"
 
 logger:
