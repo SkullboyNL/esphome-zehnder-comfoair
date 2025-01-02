@@ -3,6 +3,7 @@ select:
     name: 'Fan Speed'
     id: fan_level_select
     icon: mdi:fan
+    restore_value: true
     options:
      - Away
      - Low
