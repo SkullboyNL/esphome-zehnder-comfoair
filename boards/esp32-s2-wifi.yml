@@ -1,0 +1,17 @@
+substitutions:
+  can_tx_pin: GPIO16
+  can_rx_pin: GPIO18
+  board: lolin_s2_mini
+  variant: esp32s2
+  flash_size: 4MB
+ 
+
+light:
+  - platform: status_led
+    name: "Status LED"
+    id: led
+    icon: "mdi:alarm-light"
+    restore_mode: ALWAYS_OFF
+    pin:
+      number: GPIO15
+      inverted: false
