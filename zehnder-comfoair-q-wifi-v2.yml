@@ -55,11 +55,7 @@ esphome:
   comment: ${device_description}
   project:
     name: SkullboyNL.esphome-zehnder-comfoair(author yoziru) 
-    version: "2025.1.0"
-  on_boot:
-    priority: -100
-    then:
-      - script.execute: on_boot
+    version: "2025.2.1"
 
 logger:
   level: INFO
@@ -136,39 +132,3 @@ zehnder_comfoair_q:
       293,
       294,
     ]
-
-script:
-###  On reboot or powerloss of the esp, set the time left, last regeneration time, and capacity counters
-  - id: on_boot
-    then:
-      - light.turn_on:
-          id: led
-      - wait_until:
-          condition:
-            wifi.connected:
-      - light.turn_off:
-          id: led
-      - delay: 200ms
-      - light.turn_on:
-          id: led
-      - delay: 200ms
-      - light.turn_off:
-          id: led
-      - delay: 200ms
-      - light.turn_on:
-          id: led
-      - delay: 200ms
-      - light.turn_off:
-          id: led
-      - delay: 200ms
-      - light.turn_on:
-          id: led
-      - delay: 200ms
-      - light.turn_off:
-          id: led
-      - delay: 200ms
-      - light.turn_on:
-          id: led
-      - delay: 200ms
-      - light.turn_off:
-          id: led
