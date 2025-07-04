@@ -37,9 +37,9 @@ packages:
       packages/text_sensors.yml,
     ]
 
-#dashboard_import:
-#  package_import_url: github://SkullboyNL/esphome-zehnder-comfoair/zehnder-comfoair-q-wifi-v2.yml@main
-#  import_full_config: true
+dashboard_import:
+  package_import_url: github://SkullboyNL/esphome-zehnder-comfoair/zehnder-comfoair-q-wifi-v2.yml@main
+  import_full_config: true
 
   
 external_components:
@@ -55,7 +55,7 @@ esphome:
   comment: ${device_description}
   project:
     name: SkullboyNL.esphome-zehnder-comfoair(author yoziru) 
-    version: "2025.2.1"
+    version: "2025.7.1"
 
 logger:
   level: INFO
