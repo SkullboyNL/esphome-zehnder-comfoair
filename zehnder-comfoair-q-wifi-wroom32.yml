@@ -20,7 +20,7 @@ packages:
 #  switch: !include packages/switch.yml
 # text_sensors: !include packages/text_sensors.yml
   remote_package:
-    url: https://github.com/SkullboyNL/esphome-zehnder-comfoair/tree/RaptorKid
+    url: https://github.com/SkullboyNL/esphome-zehnder-comfoair
     refresh: 0s
     ref: RaptorKid
     files: [ 
