@@ -22,6 +22,7 @@ packages:
   remote_package:
     url: https://github.com/SkullboyNL/esphome-zehnder-comfoair/tree/RaptorKid
     refresh: 0s
+    ref: RaptorKid
     files: [ 
       boards/esp32-wroom32.yml,
       packages/binary_sensors.yml,
