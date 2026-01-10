@@ -23,7 +23,7 @@ packages:
     url: https://github.com/SkullboyNL/esphome-zehnder-comfoair
     refresh: 0s
     files: [ 
-      boards/esp32-c2-wifi.yml,
+      boards/esp32-c3-wifi.yml,
       packages/binary_sensors.yml,
       packages/board.yml,
       packages/button.yml,
