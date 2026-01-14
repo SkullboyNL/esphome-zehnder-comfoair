@@ -75,7 +75,6 @@ wifi:
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
 
-
 captive_portal:
 
 web_server:
