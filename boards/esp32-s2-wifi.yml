@@ -3,7 +3,7 @@ substitutions:
   can_rx_pin: GPIO18
   board: lolin_s2_mini
   variant: esp32s2
-  flash_size: 2MB
+  flash_size: 4MB
  
 
 light:
