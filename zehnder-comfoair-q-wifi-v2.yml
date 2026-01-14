@@ -55,7 +55,7 @@ esphome:
   comment: ${device_description}
   project:
     name: SkullboyNL.esphome-zehnder-comfoair(author yoziru) 
-    version: "2026.1.1"
+    version: "2026.8.1"
 
 logger:
   level: INFO
